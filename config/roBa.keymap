@@ -81,9 +81,9 @@
         default_layer {
             bindings = <
 &kp Q             &kp W         &kp E         &kp R      &kp T                                      &kp Y      &kp U  &lt 5 I    &kp O    &kp BACKSPACE
-&kp A             &kp S         &kp D         &kp F      &kp G        &kp LC(P)      &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp P
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &lt 3 B      &kp TAB        &kp LG(LS(N))  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&bt BT_NXT        &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 TAB  &lt 1 SPACE  &mkp LCLK      &mkp RCLK      &kp ENTER                             &kp LS(NUMBER_1)
+&kp A             &kp S         &kp D         &kp F      &kp G      &kp LC(P)        &kp MINUS      &kp H      &kp J  &kp K      &kp L    &kp P
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &lt 3 B    &kp TAB          &kp LG(LS(N))  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 2 TAB  &mkp LCLK  &lt 1 SPACE      &kp ENTER      &mkp RCLK                             &kp LS(NUMBER_1)
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp LANG_ZENKAKUHANKAKU  &kp AT_SIGN     &kp UP          &kp TILDE        &kp LEFT_BRACKET                                           &kp LS(N8)    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
-&kp RIGHT_BRACKET        &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp LS(N9)    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&mt LEFT_SHIFT LC(Z)     &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LG(LS(S))      &kp UNDER                    &kp COLON  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
-&trans                   &trans          &trans          &trans           &trans             &trans                       &trans     &trans                                                  &kp PIPE
+&kp TAB               &kp AT_SIGN     &kp UP          &kp TILDE        &kp LEFT_BRACKET                                           &kp LS(N8)    &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
+&kp RIGHT_BRACKET     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp RIGHT_BRACKET  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp LS(N9)    &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&mt LEFT_SHIFT LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LG(LS(S))      &kp UNDER                    &kp COLON  &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans                &trans          &trans          &trans           &trans             &trans                       &trans     &trans                                                  &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
