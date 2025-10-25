@@ -91,10 +91,10 @@
 
         NUM {
             bindings = <
-&kp LANG5             &kp AT_SIGN   &kp LS(UP)    &kp TILDE            &kp LEFT_BRACKET                                           &kp LS(KP_NUMBER_8)  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
-&kp RIGHT_BRACKET     &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT_ARROW)  &kp RIGHT_BRACKET  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp LS(KP_NUMBER_9)  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
-&mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)            &kp LG(LS(S))      &kp UNDER                    &kp COLON  &kp NUMBER_0         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LS(SEMICOLON)
-&trans                &trans        &trans        &trans               &trans             &trans                       &trans     &trans                                                         &kp PIPE
+&kp LANG5             &kp AT_SIGN   &kp LS(UP)    &kp TILDE            &kp LEFT_BRACKET                                           &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp BACKSPACE
+&kp RIGHT_BRACKET     &kp LS(LEFT)  &kp LS(DOWN)  &kp LS(RIGHT_ARROW)  &kp RIGHT_BRACKET  &kp LC(LA(KP_NUMBER_0))      &kp EQUAL  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&mt LEFT_SHIFT LC(Z)  &kp LC(X)     &kp LC(C)     &kp LC(V)            &kp LG(LS(S))      &kp UNDER                    &kp COLON  &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
+&trans                &trans        &trans        &trans               &trans             &trans                       &trans     &trans                                                           &kp PIPE
             >;
 
             sensor-bindings = <&inc_dec_kp 0 0>;
