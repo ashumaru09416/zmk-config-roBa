@@ -86,7 +86,7 @@
 &kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp RCLK  &mkp LCLK  &lt 1 SPACE                  &kp ENTER      &kp TAB                             &kp LS(NUMBER_1)
             >;
 
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
+            sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
         };
 
         NUM {
@@ -97,7 +97,7 @@
 &trans                &trans          &trans          &trans           &trans             &trans                       &trans     &trans                                                  &kp PIPE
             >;
 
-            sensor-bindings = <&inc_dec_kp 0 0>;
+            sensor-bindings = <&inc_dec_kp LG(LS(LEFT_ARROW)) LG(LS(RIGHT_ARROW))>;
         };
 
         FUNCTION {
