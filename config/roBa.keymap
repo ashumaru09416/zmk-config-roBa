@@ -110,7 +110,7 @@
         NUM {
             bindings = <
 &kp ESCAPE            &kp LS(N2)      &kp UP          &kp LS(KP_PLUS)  &kp RIGHT_BRACKET                                              &kp LEFT_PARENTHESIS   &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp DEL
-&kp SINGLE_QUOTE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH      &kp LA(LEFT_ARROW)      &kp LS(UNDERSCORE)  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
+&kp SINGLE_QUOTE      &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp BACKSLASH      &kp LA(LEFT_ARROW)      &kp JP_UNDERSCORE  &kp RIGHT_PARENTHESIS  &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp MINUS
 &mt LEFT_SHIFT LC(Z)  &kp LC(X)       &kp LC(C)       &kp LC(V)        &kp LG(LS(S))      &kp SEMICOLON           &kp COLON           &kp NUMBER_0           &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PLUS
 &kp COMMA             &trans          &trans          &trans           &trans             &trans                  &trans              &trans                                                           &kp PERIOD
             >;
