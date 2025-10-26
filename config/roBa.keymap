@@ -109,13 +109,13 @@
 
         default_layer {
             bindings = <
-&kp Q             &kp W         &kp E         &kp R      &kp T                                                 &kp Y    &kp U  &lt 5 I    &kp O    &kp BACKSPACE
-&kp A             &kp S         &kp D         &kp F      &kp G      &kp LG(LS(LEFT_ARROW))      &kp MINUS      &kp H    &kp J  &kp K      &kp L    &kp P
-&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &lt 2 B    &kp JP_HANZEN               &kp LG(LS(N))  &kp N    &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &mkp RCLK  &mkp LCLK  &lt 1 SPACE                 &kp ENTER      &kp TAB                             &kp LS(NUMBER_1)
+&kp Q             &kp W         &kp E         &kp R      &kp T                                               &kp Y     &kp U  &lt 5 I    &kp O    &kp BACKSPACE
+&kp A             &kp S         &kp D         &kp F      &kp G    &kp LG(LS(LEFT_ARROW))      &kp MINUS      &kp H     &kp J  &kp K      &kp L    &kp P
+&mt LEFT_SHIFT Z  &kp X         &kp C         &kp V      &lt 2 B  &kp JP_HANZEN               &kp LG(LS(N))  &kp N     &kp M  &kp COMMA  &kp DOT  &kp SLASH
+&kp LCTRL         &kp LEFT_WIN  &kp LEFT_ALT  &lt 4 TAB  &mo 1    &lt 2 SPACE                 &kp ENTER      &mkp MB1                             &kp LS(NUMBER_1)
             >;
 
-            sensor-bindings = <&scroll_up_down>;
+            sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
         };
 
         NUM {
@@ -126,7 +126,7 @@
 &kp COMMA             &trans          &trans          &trans           &trans           &trans                  &trans        &trans                                                   &kp PERIOD
             >;
 
-            sensor-bindings = <&scroll_left_right>;
+            sensor-bindings = <&inc_dec_kp LG(LS(RIGHT_ARROW)) LG(LS(LEFT_ARROW))>;
         };
 
         FUNCTION {
