@@ -121,7 +121,7 @@
 &kp COMMA             &trans          &trans          &trans           &trans           &trans                  &trans        &trans                                                   &kp PERIOD
             >;
 
-            sensor-bindings = <&inc_dec_kp LC(PLUS) LC(MINUS)>;
+            sensor-bindings = <&inc_dec_kp LC(JP_PLUS) LC(MINUS)>;
         };
 
         FUNCTION {
