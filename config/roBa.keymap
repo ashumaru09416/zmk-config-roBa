@@ -18,10 +18,12 @@
 #define JP_EQUAL        UNDER             // =
 
 / {
-    /omit-if-no-ref/ zip_temp_layer: zip_temp_layer {
+    /omit-if-no-ref/ 
+
+    zip_temp_layer: zip_temp_layer {
         compatible = "zmk,input-processor-temp-layer";
         #input-processor-cells = <2>;
-        require-prior-idle-ms = <10000>;   // ← 非マウスキー後0.5秒はAMLを起動しない
+        require-prior-idle-ms = <500>;   // ← 非マウスキー後0.5秒はAMLを起動しない
     };
 };
 
