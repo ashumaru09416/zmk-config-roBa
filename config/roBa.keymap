@@ -5,7 +5,7 @@
 #include <input/processors.dtsi>
 #include <zephyr/dt-bindings/input/input-event-codes.h>
 
-#define JP_UNDERSCORE   LS(0x87)
+#define JP_UNDERSCORE   LS(0x87)          // _
 #define JP_COLON        SINGLE_QUOTE      // :
 #define JP_LBRACKET     RIGHT_BRACKET     // [
 #define JP_RBRACKET     BACKSLASH         // ]
