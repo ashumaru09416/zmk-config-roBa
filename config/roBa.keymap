@@ -80,14 +80,14 @@
         kakko: kakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp ASTRK &kp LEFT_PARENTHESIS &kp ENTER &kp LEFT_ARROW>;
+            bindings = <&kp ASTRK &kp LEFT_PARENTHESIS &kp LEFT_ARROW>;
             label = "KAKKO";
         };
 
         kagikakko: kagikakko {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp RIGHT_BRACKET &kp BACKSLASH &kp ENTER &kp LEFT_ARROW>;
+            bindings = <&kp RIGHT_BRACKET &kp BACKSLASH &kp LEFT_ARROW>;
             label = "KAGIKAKKO";
         };
     };
