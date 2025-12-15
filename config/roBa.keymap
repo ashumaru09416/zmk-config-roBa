@@ -128,7 +128,7 @@
 &kp ESC    &kp W         &kp E         &kp R           &kp T                                                   &kp Y      &kp U  &lt 5 I    &kp O    &kp BACKSPACE
 &kp A      &kp S         &kp D         &kp F           &kp G        &kp LG(LS(LEFT_ARROW))      &kp MINUS      &kp H      &kp J  &kp K      &kp L    &lt 4 P
 &kp Z      &kp X         &kp C         &kp V           &lt 2 B      &kp JP_HANZEN               &kp LG(LS(N))  &kp N      &kp M  &kp COMMA  &kp DOT  &kp SLASH
-&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 1 SPACE  &mkp MB1                    &to 4          &kp ENTER                             &kp LS(NUMBER_1)
+&kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 1 SPACE  &to 4                       &to 4          &kp ENTER                             &kp LS(NUMBER_1)
             >;
 
             sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
