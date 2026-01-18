@@ -83,7 +83,7 @@
 
         to0 {
             bindings = <&to 0>;
-            key-positions = <19 20>;
+            key-positions = <20 21>;
         };
     };
 
