@@ -86,12 +86,12 @@
             key-positions = <32 33>;
         };
 
-        MB1 {
+        mouse1 {
             bindings = <&mkp MB1>;
             key-positions = <18 19>;
         };
 
-        MB2 {
+        mouse2 {
             bindings = <&mkp MB2>;
             key-positions = <32 33>;
         };
