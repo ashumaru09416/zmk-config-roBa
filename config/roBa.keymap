@@ -78,12 +78,22 @@
 
         to4 {
             bindings = <&to 4>;
-            key-positions = <18 19>;
+            key-positions = <30 31>;
         };
 
         to0 {
             bindings = <&to 0>;
-            key-positions = <20 21>;
+            key-positions = <32 33>;
+        };
+
+        MB1 {
+            bindings = <&mkp MB1>;
+            key-positions = <18 19>;
+        };
+
+        MB2 {
+            bindings = <&mkp MB2>;
+            key-positions = <32 33>;
         };
     };
 
