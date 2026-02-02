@@ -111,6 +111,13 @@
             bindings = <&kp RIGHT_BRACKET &kp BACKSLASH &kp ENTER &kp LEFT_ARROW>;
             label = "KAGIKAKKO";
         };
+
+        new_macro: new_macro {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_ALT>;
+            label = "NEW_MACRO";
+        };
     };
 
     behaviors {
@@ -151,7 +158,7 @@
 &kp LCTRL  &kp LEFT_WIN  &kp LEFT_ALT  &kp LEFT_SHIFT  &lt 1 SPACE  &to 4                       &lt 1 BACKSPACE  &kp ENTER                             &kp LS(NUMBER_1)
             >;
 
-            sensor-bindings = <&inc_dec_kp LA(TAB) LS(LA(TAB))>;
+            sensor-bindings = <&inc_dec_kp TAB LS(TAB)>;
         };
 
         NUM {
