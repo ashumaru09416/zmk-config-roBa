@@ -93,7 +93,7 @@
 
         mouse2 {
             bindings = <&mkp MB2>;
-            key-positions = <32 33>;
+            key-positions = <20 19>;
         };
     };
 
